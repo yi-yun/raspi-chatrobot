@@ -2,7 +2,6 @@ import os
 import re
 import time
 import requests
-import dht11
 from datetime import datetime, timedelta
 from bs4 import BeautifulSoup
 
@@ -74,10 +73,8 @@ def get_weather():
     info = info.replace('，', ',')
     
     today ="现在是{}".format(time.strftime("%Y-%m-%d 北京时间 %H:%M:%S"))
-    tem,hu=dht11.dht11()
-    hu_zh=numtozh(int(hu))
-    text = '你好！%s,天气%s,室内温度%.1f摄氏度，室内湿度百分之%s,室外温度%s摄氏度,%s,%s,%s,%s' % \
-           (today, weather, tem,hu_zh,temp, sd, wind, aqi, info)
+    text = '你好！%s,天气%s,室外温度%s摄氏度,%s,%s,%s,%s' % \
+           (today, weather,temp, sd, wind, aqi, info)
     
     return text
 
