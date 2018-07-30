@@ -41,24 +41,24 @@ git clone -b dhtnoled https://github.com/yi-yun/raspi-chatrobot.git #没有 DHT1
 cd raspi-chatrobot
 sudo python3 Robot.py #若想后台运行可在最后面加 &
 ```
-用微信扫码登录命令行中的二维码
-登录成功表示服务端部署完毕
+用微信扫码登录命令行中的二维码  
+登录成功表示服务端部署完毕  
 在另一个微信号向服务端微信号发送`功能`即可获取功能列表，进行愉快地玩耍
 ### 演示视频
-[B站](https://www.bilibili.com/video/av28087089)
+[B站](https://www.bilibili.com/video/av28087089)  
 [YouTube](https://youtu.be/m_k38Pbp55U)
 
 ### 相关链接
-[小豆机器人](http://xiao.douqq.com/)
-[图灵机器人](http://www.tuling123.com/)
-[itchat](https://github.com/littlecodersh/itchat)
-[AdafruitDHT](https://github.com/adafruit/Adafruit_Python_DHT)
+[小豆机器人](http://xiao.douqq.com/)  
+[图灵机器人](http://www.tuling123.com/)  
+[itchat](https://github.com/littlecodersh/itchat)  
+[AdafruitDHT](https://github.com/adafruit/Adafruit_Python_DHT)  
 
 ### 写在后面
-上述为使用方法
-亲测在 Raspbian (stretch) 上成功运行
-具体代码以及爬坑过程可详见我的[博客](https://yi-yun.github.io/2018/07/30/%E7%88%AC%E5%9D%91%E6%8C%87%E5%8D%97/#more)
-对此感兴趣的小伙伴可以私信或[邮件](mailto:yi--yun@outlook.com)我一起探讨学习
+上述为使用方法  
+亲测在 Raspbian (stretch) 上成功运行  
+具体代码以及爬坑过程可详见我的[博客](https://yi-yun.github.io/2018/07/30/%E7%88%AC%E5%9D%91%E6%8C%87%E5%8D%97/#more)  
+对此感兴趣的小伙伴可以私信或[邮件](mailto:yi--yun@outlook.com)我一起探讨学习  
 欢迎各位朋友star、fork 和 Issue
 
 -----
