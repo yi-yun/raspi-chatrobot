@@ -18,10 +18,9 @@
 
 ### 搭建环境
 用 PuTTY 或其他远程工具远程登录树莓派，先确认有 python3 环境
-```shell
-pip3 install itchat 
-pip3 install requests
-pip3 install BeautifulSoup4
+```shell 基本环境，最好都加 sudo
+sudo pip3 install itchat --upgrade
+sudo pip3 install requests BeautifulSoup4
 sudo apt-get install mplayer #很多人推荐的音乐播放器，感觉还不错
 ```
 
