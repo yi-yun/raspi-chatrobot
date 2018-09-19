@@ -56,7 +56,7 @@ sudo python3 Robot.py #若想后台运行可在最后面加 &
 ### 写在后面
 上述为使用方法  
 亲测在 Raspbian (stretch) 上成功运行  
-具体代码以及爬坑过程可详见我的[博客](https://yi-yun.github.io/2018/07/30/%E7%88%AC%E5%9D%91%E6%8C%87%E5%8D%97/#more)  
+具体代码以及爬坑过程可详见我的[博客](https://yi-yun.github.io/爬坑指南)  
 对此感兴趣的小伙伴可以私信或[邮件](mailto:yi--yun@outlook.com)我一起探讨学习  
 欢迎各位朋友star、fork 和 Issue
 
