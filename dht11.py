@@ -1,5 +1,4 @@
 import sys
-
 import Adafruit_DHT
 
 def dht11():
