@@ -6,7 +6,7 @@
 ## 基于树莓派的微信机器人
 
 ### 写在前面
-本项目采用的是 `itchat` 在 `python3` 的模块，已更新失效的 API，更新过程见博客
+本项目采用的是 `itchat` 在 `python3` 的模块，已更新失效的 API，更新过程见[这篇文章](https://yi-yun.github.io/%E5%9F%BA%E4%BA%8E%E6%A0%91%E8%8E%93%E6%B4%BE%E7%9A%84%E5%BE%AE%E4%BF%A1%E6%9C%BA%E5%99%A8%E4%BA%BA%E6%9B%B4%E6%96%B0%E7%89%88/)
 
 ### 准备材料
 * 搭载 Raspbian 的树莓派3 (只要是带有 python3 的 Linux 的系统都可以)
@@ -59,7 +59,7 @@ sudo python3 Robot.py #若想后台运行需要运行 sudo apt-get install scree
 ### 写在后面
 上述为使用方法  
 亲测在 Raspbian (stretch) 上成功运行  
-具体代码以及爬坑过程可详见我的[博客](https://yi-yun.github.io/爬坑指南)  
+具体代码以及爬坑过程可详见我的[这篇文章](https://yi-yun.github.io/爬坑指南)  
 对此感兴趣的小伙伴可以私信或[邮件](mailto:yi--yun@outlook.com)我一起探讨学习  
 欢迎各位朋友star、fork 和 Issue
 
